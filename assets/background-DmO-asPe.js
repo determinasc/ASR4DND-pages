@@ -1,0 +1,1 @@
+import{o as e,r as t}from"./actionWindow-DFdCxB7V.js";async function n(){let{width:n,height:r}=t();await Promise.all([e.action.setWidth(n),e.action.setHeight(r)])}e.onReady(async()=>{try{await Promise.all([e.action.setBadgeText(``),e.action.setTitle(`秘法通信仪`),n()]),e.action.onOpenChange(e=>{e&&n()})}catch{}});

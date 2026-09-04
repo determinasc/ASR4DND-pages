@@ -1,0 +1,26 @@
+{
+  "name": "秘法通信仪",
+  "description": "Owlbear Rodeo 跑团语音通信台：实时语音、字幕时间线、文字与会后整理。",
+  "version": "0.3.0",
+  "manifest_version": 1,
+  "author": "ASR4DND",
+  "icon": "./icon.svg",
+  "background_url": "./background.html",
+  "permissions": [
+    {
+      "name": "microphone",
+      "reason": "加入语音频道时采集当前玩家主动开启的麦克风。"
+    },
+    {
+      "name": "autoplay",
+      "reason": "自动播放其他玩家的语音轨道。"
+    }
+  ],
+  "action": {
+    "title": "秘法通信仪",
+    "icon": "./icon.svg",
+    "popover": "./",
+    "height": 760,
+    "width": 520
+  }
+}
