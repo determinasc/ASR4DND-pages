@@ -19,7 +19,7 @@
   "action": {
     "title": "秘法通信仪",
     "icon": "./icon.svg",
-    "popover": "./",
+    "popover": "./index.html",
     "height": 760,
     "width": 520
   }
